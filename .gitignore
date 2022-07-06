@@ -3,6 +3,7 @@
 /build
 /.svelte-kit
 /package
+/.netlify
 .env
 .env.*
 !.env.example
