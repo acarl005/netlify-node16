@@ -2,9 +2,9 @@
 	"name": "netlify-node16",
 	"type": "module",
 	"version": "0.0.1",
-  "engines": {
-    "node": ">=16"
-  },
+	"engines": {
+		"node": ">=16"
+	},
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -13,8 +13,8 @@
 		"prepare": "svelte-kit sync"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.64",
+		"@sveltejs/kit": "^1.0.0-next.342",
 		"svelte": "^3.44.0"
 	}
 }
