@@ -1,3 +1,5 @@
+import path from "path"
+
 const name = await Promise.resolve("world")
 
 export function get() {
